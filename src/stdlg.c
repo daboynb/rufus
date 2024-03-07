@@ -1675,7 +1675,6 @@ INT_PTR CALLBACK NewVersionCallback(HWND hDlg, UINT message, WPARAM wParam, LPAR
 
 void DownloadNewVersion(void)
 {
-	MyDialogBox(hMainInstance, IDD_NEW_VERSION, hMainDialog, NewVersionCallback);
 }
 
 void SetTitleBarIcon(HWND hDlg)
